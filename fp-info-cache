@@ -1,4 +1,4 @@
-23719467552846618
+23721190883146141
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6425,6 +6425,13 @@ capacitor tantalum
 0
 2
 2
+Cistern
+AZDelivery_KY-012_Buzzer
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
+0
+3
+3
 Cistern
 DC-DC_Module_XL6009E1
 

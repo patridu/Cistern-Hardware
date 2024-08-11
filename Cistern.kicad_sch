@@ -1027,6 +1027,164 @@
 				)
 			)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(arc
+					(start 0 -3.175)
+					(mid 3.1612 0)
+					(end 0 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Current-regulator"
 			(pin_numbers hide)
 			(pin_names
@@ -3286,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 132.08 82.55)
+			(xy 132.08 81.28) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3476,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 76.2)
+			(xy 132.08 81.28) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 82.55) (xy 160.02 76.2)
+			(xy 160.02 81.28) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3626,6 +3784,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7a39c0-209d-40b8-b5cd-b574fc938057")
+	)
+	(wire
+		(pts
 			(xy 110.49 105.41) (xy 96.52 105.41)
 		)
 		(stroke
@@ -3663,16 +3831,6 @@
 			(type default)
 		)
 		(uuid "c6084931-15e6-4668-8983-f3b97026c736")
-	)
-	(wire
-		(pts
-			(xy 149.86 82.55) (xy 160.02 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdd54a5-98f3-4e4e-b322-e74e89563cfa")
 	)
 	(wire
 		(pts
@@ -4445,7 +4603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 162.56 125.73 0)
 			(effects
 				(font
@@ -5023,6 +5181,76 @@
 			(project "Cistern"
 				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 146.05 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd5b144-9814-4d18-ba36-5a21905822ce")
+		(property "Reference" "BZ1"
+			(at 149.86 83.305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 149.86 85.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Cistern:AZDelivery_KY-012_Buzzer"
+			(at 148.59 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26413208-3ff8-46d8-a114-e8fc28185ab8")
+		)
+		(pin "2"
+			(uuid "055e2009-5b0e-4f6d-b5e6-e56c814dfe20")
+		)
+		(instances
+			(project ""
+				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 191.77 104.013 0)
 			(effects
 				(font
@@ -5763,74 +5991,6 @@
 			(project ""
 				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 82.55 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7f1cd0c-c769-49ba-9c15-15141e7e99e5")
-		(property "Reference" "R3"
-			(at 146.05 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Alarm Buzzer"
-			(at 146.05 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f47c173-ecf9-434c-98e9-f18fbbd94146")
-		)
-		(pin "2"
-			(uuid "246611b3-0f9a-4c19-9300-d122da1e0ced")
-		)
-		(instances
-			(project ""
-				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
-					(reference "R3")
 					(unit 1)
 				)
 			)
