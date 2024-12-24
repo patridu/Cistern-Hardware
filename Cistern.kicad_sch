@@ -3485,10 +3485,6 @@
 		(uuid "879365db-99d4-4298-b4bb-44da56e7d2ef")
 	)
 	(no_connect
-		(at 175.26 92.71)
-		(uuid "b899e404-13de-467c-8647-518641a60c24")
-	)
-	(no_connect
 		(at 146.05 62.23)
 		(uuid "c42a4a55-1a15-4ba7-9819-8bc292edf73e")
 	)
@@ -4139,6 +4135,16 @@
 			(type default)
 		)
 		(uuid "e57f27b2-f184-4a01-aff8-6303e0d61c36")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ef62d2-8541-4757-ae36-7c9c8943352b")
 	)
 	(wire
 		(pts
@@ -6228,6 +6234,73 @@
 			(project "Cistern"
 				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c562bab1-0fa0-4df9-9955-396f84242388")
+		(property "Reference" "#PWR014"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6be3b87-1149-4fd6-b21d-14f0d68d8342")
+		)
+		(instances
+			(project "Cistern"
+				(path "/387a1b1b-4d04-4a4f-a341-bb26b6058549"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
