@@ -62,8 +62,7 @@
         "silk_edge_clearance|109220000|124460000|5fda1dc4-04b9-4336-ba0a-f760d686353e|0adea2c3-50a3-4800-9c9e-cadd7148bf29",
         "silk_edge_clearance|109220000|124460000|5fda1dc4-04b9-4336-ba0a-f760d686353e|60d2c697-a6cd-416f-8c2f-6becf0ff609b",
         "silk_edge_clearance|85090000|49430000|4c2b29d6-581d-4567-9bb6-9d7bd41ba198|8bba80e6-02e0-4bf4-b445-834acb863ab8",
-        "silk_edge_clearance|99060000|124460000|5fda1dc4-04b9-4336-ba0a-f760d686353e|4c9c32a8-0f2f-4543-a783-935dc3a5656b",
-        "unconnected_items|88750000|102870000|f135b273-71b3-4449-a4ee-5025777d383b|6ea301f8-6d14-464f-a340-b2fdceea9adf"
+        "silk_edge_clearance|99060000|124460000|5fda1dc4-04b9-4336-ba0a-f760d686353e|4c9c32a8-0f2f-4543-a783-935dc3a5656b"
       ],
       "meta": {
         "version": 2
